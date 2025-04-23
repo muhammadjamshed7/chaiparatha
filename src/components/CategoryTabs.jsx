@@ -3,11 +3,13 @@ import { Tabs, Tab, Box } from '@mui/material';
 
 const categories = [
   'All',
-  'Tea',
+  'Tea and Breakfast',
   'Lassi',
   'Parathas',
-  'Meal Items',
-  'Juices & Milkshakes',
+  "Biryani",
+  "Pulao",
+
+  'Juices and Milkshakes',
 ];
 
 function CategoryTabs({ onChange }) {
