@@ -173,7 +173,7 @@ function CategoryTabs({ onChange }) {
   };
 
   return (
-    <Box sx={{ borderBottom: 1, borderColor: 'divider', mt: 4, px: { xs: 1, sm: 2 } }}>
+    <Box sx={{ borderBottom: 1, mt: 4, px: { xs: 1, sm: 2 } }}>
       <Tabs
         value={value}
         onChange={handleChange}

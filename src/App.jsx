@@ -86,11 +86,11 @@ function App() {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          backgroundColor: '#ffe0b2',
+          backgroundColor: '#000',
         }}
       >
         <Typography
-          variant="h4"
+          variant="h2"
           sx={{
             px: 2,
             textAlign: 'center',
@@ -111,11 +111,11 @@ function App() {
     <Container maxWidth="2xl" sx={{ mt: 4 }}>
       <Box sx={{ textAlign: 'center', mt: 4 }}>
         <Typography variant="h3">Chai Paratha Lounge & Cafe</Typography>
-        <Typography variant="subtitle1" color="text.secondary">
+        <Typography variant="subtitle1" color="primary">
           Authentic Desi Taste – 24/7 Service – Family Sitting
         </Typography>
         <Box sx={{ textAlign: 'center', mt: 4 }}>
-          <Typography variant="subtitle1" color="initial" style={{ fontSize: '2.5rem', backgroundColor: '#f0f0f0', padding: '10px', borderRadius: '5px' }}>
+          <Typography variant="subtitle1" color="primary" style={{ fontSize: '2.5rem', backgroundColor: '#f0f0f0', padding: '10px', borderRadius: '5px' }}>
             Free Delievery Service in j3 Block Johar Town
           </Typography>
           <Typography variant="subtitle1" color="warning" style={{ fontSize: '2rem', backgroundColor: 'darkgreen', color:"white", display:'inline-block',marginTop:'12px', padding:"0.6rem", borderRadius:'50px'}}>Home Delivery Available</Typography>
